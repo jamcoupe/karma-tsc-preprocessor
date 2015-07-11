@@ -2,7 +2,7 @@
 
 > Preprocessor to compile TypeScript files with the latest features.
 
-[![NPM][npm]](https://nodei.co/npm/karma-typescript-preprocessor/)
+[![NPM][npm]](https://nodei.co/npm/karma-tsc-preprocessor/)
 
 ## Installation
 
