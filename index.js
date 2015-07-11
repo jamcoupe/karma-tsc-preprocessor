@@ -1,5 +1,5 @@
 var fs = require('fs');
-var ts = require('./deps/typescript/typescript');
+var ts = require('typescript');
 
 /**
  *

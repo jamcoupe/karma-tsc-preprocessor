@@ -1,6 +1,6 @@
 {
   "name": "karma-tsc-preprocessor",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A karma-runner plugin to compile typescript files",
   "license": "MIT",
   "homepage": "https://github.com/jamcoupe/karma-tsc-preprocessor",
@@ -14,6 +14,9 @@
     "karma-preprocessor",
     "typescript"
   ],
+  "dependencies": {
+    "TypeScript": "Microsoft/TypeScript"
+  },
   "main": "index.js",
   "author": "Jamie Couperwhite <jcouperwhite@gmail.com>",
   "contributors": [
