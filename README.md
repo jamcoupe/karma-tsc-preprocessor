@@ -68,7 +68,9 @@ Notes:
 - Setting `sourceMap` to true currently emulates the `inlineSourceMap` behaviour.
 
 Warning:
-- The TypeScript compiler is built into this preprocessor. Which means that you could end up compiling against an older version during a release build which may produce unexpected results.
+- The TypeScript git repo is a dependency for this preprocessor, this is so the complied TypeScript files can contain
+  the latest features. The only downside to this is that downloading this preprocessor will take a long time because
+  it has to download the whole TypeScript repo as well.
 
 ----
 
