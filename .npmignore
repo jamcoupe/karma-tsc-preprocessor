@@ -1,0 +1,5 @@
+integration
+jest.config.js
+*.spec.js
+.editorconfig
+.idea
