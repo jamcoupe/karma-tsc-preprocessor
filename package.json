@@ -1,21 +1,23 @@
 {
   "name": "karma-tsc-preprocessor",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "A karma-runner plugin to compile typescript files",
   "license": "MIT",
   "homepage": "https://github.com/jamcoupe/karma-tsc-preprocessor",
-
   "repository": {
     "type": "git",
     "url": "git@github.com:jamcoupe/karma-tsc-preprocessor.git"
+  },
+  "scripts": {
+    "test": "jest && node integration/run"
   },
   "keywords": [
     "karma-plugin",
     "karma-preprocessor",
     "typescript"
   ],
-  "dependencies": {
-    "TypeScript": "Microsoft/TypeScript"
+  "peerDependencies": {
+    "typescript": ">= 2.0.0"
   },
   "main": "index.js",
   "author": "Jamie Couperwhite <jcouperwhite@gmail.com>",
@@ -26,6 +28,11 @@
     }
   ],
   "engines": {
-    "node": "0.12.x"
+    "node": ">= 8.16.0"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.15",
+    "fs-extra": "8.1.0",
+    "jest": "24.8.0"
   }
 }
