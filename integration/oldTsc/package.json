@@ -1,7 +1,7 @@
 {
   "name": "karma-tsc-preprocessor-test",
   "version": "1.0.0",
-  "description": "A karma-runner plugin to compile typescript files",
+  "description": "A karma-runner plugin to compile typescript files - test",
   "license": "MIT",
   "homepage": "https://github.com/jamcoupe/karma-tsc-preprocessor",
   "repository": {
@@ -10,13 +10,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/jasmine": "latest",
-    "jasmine": "latest",
-    "jasmine-core": "latest",
-    "karma": "latest",
-    "karma-chrome-launcher": "latest",
-    "karma-commonjs": "latest",
-    "karma-jasmine": "latest",
     "typescript": "2.0.0"
   }
 }
