@@ -5,8 +5,5 @@ module.exports = {
   testMatch: [
     "**/*.spec.js"
   ],
-  testPathIgnorePatterns: [
-    "/node_modules/",
-    "/integration/"
-  ],
+  rootDir: "src"
 };
