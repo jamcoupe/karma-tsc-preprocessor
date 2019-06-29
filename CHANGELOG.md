@@ -1,4 +1,4 @@
-# [1.0.0](https://github.com/jamcoupe/karma-tsc-preprocessor/compare/1.0.0...0.0.6) (2019-06-29)
+# [1.0.0](https://github.com/jamcoupe/karma-tsc-preprocessor/compare/0.0.6...1.0.0) (2019-06-29)
 
 ### BREAKING CHANGES
 
