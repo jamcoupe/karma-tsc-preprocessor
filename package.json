@@ -34,8 +34,8 @@
   },
   "devDependencies": {
     "@types/jest": "24.0.15",
-    "@typescript-eslint/eslint-plugin": "^1.11.0",
-    "@typescript-eslint/parser": "^1.11.0",
+    "@typescript-eslint/eslint-plugin": "1.11.0",
+    "@typescript-eslint/parser": "1.11.0",
     "codacy-coverage": "3.4.0",
     "eslint": "6.0.1",
     "eslint-config-standard": "12.0.0",
@@ -51,7 +51,7 @@
     "karma-chrome-launcher": "2.2.0",
     "karma-commonjs": "1.0.0",
     "karma-jasmine": "2.0.1",
-    "remark-lint": "^6.0.5",
+    "remark-lint": "6.0.5",
     "typescript": "3.5.2"
   },
   "dependencies": {
