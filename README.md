@@ -1,8 +1,13 @@
 # karma-tsc-preprocessor
 
-> Karma Preprocessor that compiles your TypeScript files.
+[![code quality](https://img.shields.io/codacy/grade/b5ab0d0605bb4be288d1469e060f8f87.svg)](https://www.codacy.com/app/jcouperwhite/karma-tsc-preprocessor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jamcoupe/karma-tsc-preprocessor&amp;utm_campaign=Badge_Grade)
+[![coverage](https://img.shields.io/codacy/coverage/b5ab0d0605bb4be288d1469e060f8f87.svg)](https://www.codacy.com/app/jcouperwhite/karma-tsc-preprocessor?utm_source=github.com&utm_medium=referral&utm_content=jamcoupe/karma-tsc-preprocessor&utm_campaign=Badge_Coverage)
+[![tests](https://img.shields.io/circleci/build/github/jamcoupe/karma-tsc-preprocessor/dev.svg?label=tests)](https://circleci.com/gh/jamcoupe/karma-tsc-preprocessor/tree/dev)
+[![dev deps](https://img.shields.io/david/dev/jamcoupe/karma-tsc-preprocessor.svg)](https://www.npmjs.com/package/karma-tsc-preprocessor)
+[![peer deps](https://img.shields.io/david/peer/jamcoupe/karma-tsc-preprocessor.svg)](https://www.npmjs.com/package/karma-tsc-preprocessor)
+[![version](https://img.shields.io/npm/v/karma-tsc-preprocessor.svg)](https://www.npmjs.com/package/karma-tsc-preprocessor)
 
-[![NPM][npm]](https://nodei.co/npm/karma-tsc-preprocessor/)
+> Karma Preprocessor that compiles your TypeScript files.
 
 ## Installation
 
