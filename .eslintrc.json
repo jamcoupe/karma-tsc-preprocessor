@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "standard"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "jest": "readonly",
+    "it": "readonly",
+    "describe": "readonly",
+    "expect": "readonly",
+    "beforeEach": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "comma-dangle": ["error", "only-multiline"],
+    "space-before-function-paren": ["error", "never"],
+    "indent": "off",
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/no-var-requires": "off"
+  }
+}

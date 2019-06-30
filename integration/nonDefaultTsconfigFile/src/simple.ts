@@ -1,5 +1,5 @@
 export class Simple {
-  getText(): string {
-    return "simple"
+  public getNonDefaultConfigFile(): string {
+    return 'non default tsconfig file';
   }
 }

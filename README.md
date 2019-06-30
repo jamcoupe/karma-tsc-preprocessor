@@ -23,7 +23,7 @@ npm install karma-tsc-preprocessor --save-dev
 
 ## Configuration
 
-#### Default `tsconfig.json`
+### Default `tsconfig.json`
 
 Using an existing `tsconfig.json` file:
 
@@ -45,7 +45,7 @@ You do not need to pass the `tsc` options if you want to use your existing `tsco
 
 ---
 
-#### Non standard `tsconfig` file
+### Non standard `tsconfig` file
 
 Using an existing `tsconfig` file with a non standard file name, for example `tsconfig.tests.json`:
 
@@ -68,7 +68,7 @@ module.exports = function(config) {
 
 ---
 
-#### Non standard `tsconfig` file
+### Inline compiler options
 
 Using a `compilerOptions` object:
 
@@ -96,8 +96,8 @@ module.exports = function(config) {
 
 ### Plugin behaviour
 
-* `configFile` property takes precedence over `compilerOptions`.
-* Setting `sourceMap` to true emulates the `inlineSourceMap` behaviour.
+*   `configFile` property takes precedence over `compilerOptions`.
+*   Setting `sourceMap` to true emulates the `inlineSourceMap` behaviour.
 
 ### Examples
 
@@ -107,13 +107,11 @@ See [integration folder](integration) for example projects.
 
 `typescript` is a peer dependency so consumers can use any supported version.
 
-* **`TypeScript`** version **`>= 2.0.0`** are supported.
-* **`Node.js`** version **`>= 8.16.0`** are supported.
+*   **`TypeScript`** version **`>= 2.0.0`** are supported.
+*   **`Node.js`** version **`>= 8.16.0`** are supported.
 
 ---
 
-For more information on Karma see the [homepage].
+For more information on Karma see the [homepage](http://karma-runner.github.com).
 
-[homepage]: http://karma-runner.github.com
 [npm]: https://nodei.co/npm/karma-tsc-preprocessor.png
-
