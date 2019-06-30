@@ -1,9 +1,9 @@
 module.exports = {
   clearMocks: true,
-  coverageDirectory: "coverage",
-  testEnvironment: "node",
+  coverageDirectory: '../coverage',
+  testEnvironment: 'node',
   testMatch: [
-    "**/*.spec.js"
+    '**/*.spec.js'
   ],
-  rootDir: "src"
+  rootDir: 'src'
 };

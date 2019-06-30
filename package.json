@@ -10,6 +10,7 @@
   },
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --coverage && cat ./coverage/lcov.info | codacy-coverage",
     "test:integration": "node integration/run"
   },
   "keywords": [
@@ -33,14 +34,28 @@
   },
   "devDependencies": {
     "@types/jest": "24.0.15",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "codacy-coverage": "3.4.0",
+    "eslint": "6.0.1",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-node": "9.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.0",
     "fs-extra": "8.1.0",
-    "jest": "24.8.0",
     "jasmine": "3.4.0",
     "jasmine-core": "3.4.0",
+    "jest": "24.8.0",
     "karma": "4.1.0",
     "karma-chrome-launcher": "2.2.0",
     "karma-commonjs": "1.0.0",
     "karma-jasmine": "2.0.1",
+    "remark-lint": "^6.0.5",
     "typescript": "3.5.2"
+  },
+  "dependencies": {
+    "remark-cli": "^6.0.1",
+    "remark-preset-lint-recommended": "^3.0.3"
   }
 }

@@ -1,12 +1,11 @@
-import { Simple } from "./simple";
+import { Simple } from './simple';
 
-describe("Simple", () => {
-
-  it("should return 'simple'", () => {
+describe('Simple', (): void => {
+  it("should return 'inline config'", (): void => {
     const simple = new Simple();
 
-    const result = simple.getText();
+    const result = simple.getInlineConfig();
 
-    expect(result).toBe("simple");
+    expect(result).toBe('inline config');
   });
 });

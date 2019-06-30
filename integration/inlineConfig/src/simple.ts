@@ -1,5 +1,5 @@
 export class Simple {
-  getText(): string {
-    return "simple"
+  public getInlineConfig(): string {
+    return 'inline config';
   }
 }
