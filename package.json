@@ -49,7 +49,7 @@
     "jest": "24.8.0",
     "remark-cli": "6.0.1",
     "remark-preset-lint-recommended": "3.0.3",
-    "karma": "4.2.0",
+    "karma": "4.4.1",
     "karma-chrome-launcher": "2.2.0",
     "karma-commonjs": "1.0.0",
     "karma-jasmine": "2.0.1",
