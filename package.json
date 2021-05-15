@@ -47,13 +47,13 @@
     "jasmine": "3.4.0",
     "jasmine-core": "3.4.0",
     "jest": "24.8.0",
-    "remark-cli": "6.0.1",
-    "remark-preset-lint-recommended": "3.0.3",
+    "remark-cli": "9.0.0",
+    "remark-preset-lint-recommended": "4.0.0",
     "karma": "4.2.0",
     "karma-chrome-launcher": "2.2.0",
     "karma-commonjs": "1.0.0",
     "karma-jasmine": "2.0.1",
-    "remark-lint": "6.0.5",
+    "remark-lint": "7.0.0",
     "typescript": "3.5.3"
   }
 }
