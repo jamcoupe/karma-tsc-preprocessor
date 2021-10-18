@@ -54,6 +54,6 @@
     "karma-commonjs": "1.0.0",
     "karma-jasmine": "2.0.1",
     "remark-lint": "6.0.5",
-    "typescript": "3.5.3"
+    "typescript": "3.9.10"
   }
 }
